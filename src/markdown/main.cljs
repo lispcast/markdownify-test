@@ -1,6 +1,5 @@
 (ns markdown.main
   (:require [reagent.core :as reagent]
-            ["marked" :as marked]
             ["showdown" :as showdown]))
 
 (defonce flash-message (reagent/atom nil))
